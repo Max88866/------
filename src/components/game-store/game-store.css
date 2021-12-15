@@ -1,0 +1,25 @@
+.game-store {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(252, 252, 252);
+  border-radius: 20px;
+  padding: 10px;
+  /* position: relative; */
+}
+.game-store:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 15px 15px 10px 1px rgba(0, 0, 0, 0.2);
+  /* position: relative; */
+}
+.game-store_icon {
+  /* cursor: pointer; */
+  position: relative;
+  /* color: rgb(255, 255, 255); */
+}
+.game-store_tag {
+  margin-left: 12px;
+  /* font-size: 20px; */
+  /* color: rgb(253, 255, 253); */
+}

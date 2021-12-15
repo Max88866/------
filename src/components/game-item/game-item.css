@@ -1,0 +1,111 @@
+.game-item {
+  text-decoration: none;
+  color: azure;
+  width: 250px;
+  height: 350px;
+  background-color: rgba(110, 135, 219, 0.753);
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /* flex: 0 1 30%; */
+}
+
+.game-item {
+  margin-bottom: 60px;
+  margin-right: 20px;
+}
+
+.game-item_title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.game-item_genre {
+  margin-top: 2px;
+  /* margin-right: 20px; */
+  /* font-size: 16px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+}
+.game-item_buy {
+  /* display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px; */
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+.game-item:hover {
+  background-color: rgba(240, 255, 255, 0.747);
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+  /* font-weight: bold; */
+  /* font-size: 30px; */
+  box-shadow: 15px 15px 10px 5px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+@media (max-width: 1250px) {
+  .game-item {
+    width: 250px;
+    /* background: chartreuse; */
+    margin-right: calc(5px + (50) * ((100vw - 320px) / (1250-550)));
+  }
+  /* .game-item_title {
+    background: rgb(70, 82, 148);
+    font-size: 19px;
+  }
+  .game-item_genre {
+    font-size: 14px;
+    background: rgb(70, 82, 148);
+  } */
+}
+@media (max-width: 550px) {
+  .game-item {
+    width: 250px;
+    height: 370px;
+    /* background: chartreuse; */
+    margin-right: calc(1px + (50 - 5) * ((100vw - 320px) / (550-400)));
+  }
+  .game-item_title {
+    /* background: rgb(70, 82, 148); */
+    font-size: 19px;
+  }
+  .game-item_genre {
+    font-size: 14px;
+    /* background: rgb(70, 82, 148); */
+  }
+}
+
+@media (max-width: 400px) {
+  .game-item {
+    width: 190px;
+    /* background: rgb(65, 56, 185); */
+    margin-right: calc(3px + (50) * ((100vw - 320px) / (400-320)));
+  }
+  .game-item_title {
+    /* background: rgb(81, 173, 112); */
+    font-size: 16px;
+  }
+  .game-item_genre {
+    font-size: 12px;
+    /* background: rgb(73, 148, 70); */
+  }
+  .game-item_buy {
+    left: 15px;
+  }
+}
+
+.game-item_details {
+  padding: 10px 20px;
+}
+
+/* .game-item_description {
+  margin-top: 10px;
+  font-size: 14px;
+} */

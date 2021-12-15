@@ -1,0 +1,25 @@
+.cart-block {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(250, 250, 250);
+  border-radius: 20px;
+  padding: 10px;
+  /* position: relative; */
+}
+.cart-block:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 15px 15px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.cart-block_icon {
+  /* cursor: pointer; */
+  position: relative;
+  /* color: rgb(255, 255, 255); */
+}
+.cart-block_total-price {
+  margin-left: 12px;
+  /* font-size: 20px; */
+  /* color: rgb(253, 255, 253); */
+}

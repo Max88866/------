@@ -1,0 +1,37 @@
+.header {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  /* В начале и конце */
+  justify-content: space-between;
+  font-weight: lighter;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px 50px;
+  color: rgb(240, 239, 239);
+  background-color: hsla(343, 18%, 39%, 0.651);
+  border-radius: 50px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.wrapper {
+  /* FIXME: Не нужен выше определен */
+  /* display: flex; */
+  /* flex-grow: 1; */
+  /* Эти свойства задаются сдесь для обоих (потомому что ссылка и текст) */
+  font-weight: bold;
+}
+.wrapper:hover {
+  /* Прозрачность элемента */
+  opacity: 0.6;
+  /* font-weight: bold; */
+}
+@media (max-width: 1300px) {
+  .header {
+    position: relative;
+  }
+} ;

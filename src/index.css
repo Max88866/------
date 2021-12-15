@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgba(50, 44, 87, 0.918); */
+  /* background-image: url("/game-covers/battlefield_2042.jpg"); */
+  /* background-position: center;
+  background-size: cover; */
+  /* background: url(fd.jpg); */
+  /* color: aqua; */
+  background-image: url(./img2/fd.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* @media only screen and (min-width: 640px) {
+  .body {
+    background-size: 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .body {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+} */
+/* #selector {
+  width: 100%;
+  height: 100%;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px 50px;
+  color: rgb(240, 239, 239);
+  /* background-color: hsl(342, 10%, 25%);
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-color: rgba(50, 44, 87, 0.918); */
+  /* background-image: url(fd.jpg); */
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
