@@ -1,0 +1,27 @@
+.cart-menu {
+  position: absolute;
+  top: 60px;
+  right: -40px;
+  background-color: rgba(165, 95, 118, 0.89);
+  width: 400px;
+  padding: 10px 20px;
+  z-index: 2;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media (max-width: 500px) {
+  .cart-menu {
+    width: 200px;
+  }
+}
+.cart-menu__arrange {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(15, 15, 20, 0.575);
+}
+.cart-menu__total-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}

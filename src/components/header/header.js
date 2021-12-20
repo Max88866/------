@@ -18,7 +18,7 @@ export const Header = () => {
           <SkinStore />
         </Link>
       </div>
-      <div className="wrapper header_cart-btn-wrapper">
+      <div className=" header_cart-btn-wrapper">
         <CartBlock />
       </div>
     </div>
