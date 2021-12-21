@@ -1,0 +1,9 @@
+.order-page__total-price {
+  max-width: 80%;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgba(68, 196, 136, 0.637);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+}

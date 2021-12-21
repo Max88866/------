@@ -2,9 +2,10 @@ import React from "react";
 import { calcTotalPrice } from "../../components/utils";
 import { useSelector } from "react-redux";
 import "./order-page.css";
+import { OrderItem } from "../../components/order-item";
 
 export const OrderPage = () => {
-  const items = useSelector((state) => state.cart.itemInCart);
+  const items = useSelector((state) => state.curt.itemInCart);
 
   if (items.length < 1) {
     return <h1>Ваша корзина пуста</h1>;
